@@ -1,3 +1,12 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# main.py
+
+####### RUN THIS CODE ON TERMINAL ##########
+
+
 import time
 from actuators.relay import Relay
 from actuators.servo import ServoController
