@@ -1,1 +1,0 @@
-{ "relay_motor": 1, "relay_fan": 2, "pir_pin": "D2", "light_sensor": "A0" }
