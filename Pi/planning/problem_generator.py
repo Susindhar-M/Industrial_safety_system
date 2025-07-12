@@ -1,3 +1,9 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# planner/problem_generator.py
+
 def generate_problem_file(state):
     with open("planning/problem.pddl", "w") as f:
         f.write("(define (problem industrial-safety)\n")
