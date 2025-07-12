@@ -1,3 +1,9 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# modify pins accordingly
+# rfid/rfid_reader.py
+
 import RPi.GPIO as GPIO
 import threading
 import time
