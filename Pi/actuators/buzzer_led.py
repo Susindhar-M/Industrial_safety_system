@@ -22,12 +22,11 @@ class BuzzerLED:
 
     # LED and buzzer action for access granted
     def access_granted(self, zone="zone1"):
-        # Short beep + LED zone of particular zone
-        grovepi.digitalWrite(self.buzzer_pin, 1)
-        grovepi.digitalWrite(self.led_pins.get(zone, 5), 1)
-        time.sleep(0.2)
-        grovepi.digitalWrite(self.buzzer_pin, 0)
-        grovepi.digitalWrite(self.led_pins.get(zone, 5), 0)
+        # LED zone of particular zone
+        for _ in range(3):
+            grovepi.digitalWrite(self.led_pins[zone], 1)
+            time.sleep(0.5)
+            grovepi.digitalWrite(self.led_pins[zone], 0)
 
     # LED and buzzer action for access denied
     def access_denied(self):
