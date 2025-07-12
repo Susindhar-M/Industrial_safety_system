@@ -1,3 +1,9 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Change IP and port accordingly
+# dashboard_comm.py
+
 import paho.mqtt.client as mqtt
 import json
 
@@ -18,7 +24,7 @@ def on_connect(client, userdata, flags, rc):
     client.subscribe("safestart/override")
 
 def on_message(client, userdata, msg):
-    print("Ran")
+    # print("Ran")
     global override_command
     if msg.topic == "safestart/override":
         try:
