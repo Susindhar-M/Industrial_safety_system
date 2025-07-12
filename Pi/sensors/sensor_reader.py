@@ -1,3 +1,9 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# sensors/sensor_reader.py
+
 import time
 import grovepi
 
