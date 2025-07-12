@@ -1,10 +1,16 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# app.py
+
+
+####### RUN THIS ON THE LOCAL HOST (PC) ########
+
 from flask import Flask, render_template, request, jsonify
 import threading
 import paho.mqtt.client as mqtt
 import json
-
-
-
 
 MQTT_BROKER = "0.0.0.0"
 MQTT_PORT = 1883
