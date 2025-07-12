@@ -1,3 +1,11 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# rfid/MFRC522Custom.py
+
+# Library to read 2 rfids at the same time
+
 import RPi.GPIO as GPIO
 from mfrc522 import MFRC522
 import spidev
