@@ -1,3 +1,10 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# actuator/actuator_controller.py
+
+# Function to control motor and fan based on the plan
 def control_actuators(plan, relay, lcd):
     motor_on = False
     fan_on = False
@@ -21,5 +28,6 @@ def control_actuators(plan, relay, lcd):
         relay.on(2)
     else:
         relay.off(2)
-
+        
+# LCD display in operator zone
     lcd.display(f"Motor: {'ON' if motor_on else 'OFF'}", f"Fan: {'ON' if fan_on else 'OFF'}")
