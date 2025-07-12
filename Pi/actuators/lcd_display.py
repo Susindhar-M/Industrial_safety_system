@@ -1,3 +1,9 @@
+######################################################################################################
+# Authors : Susindhar Manivasagan, Raksha Nagendra, Mansi Sharad Dongare
+######################################################################################################
+# Do not modify
+# actuator/lcd_display.py
+
 from grove_rgb_lcd import setText, setRGB
 
 class LCD:
